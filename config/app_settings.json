@@ -73,7 +73,7 @@
       "name": "usertype.gateway"
     },
     "intervation_admin": {
-      "name": "usertype.intervation-administrator"
+      "name": "usertype.intervation-facilitator "
     },
     "clinical_admin": {
       "name": "usertype.clinical-administrator",
@@ -81,10 +81,6 @@
     },
     "case_manager": {
       "name": "usertype.case-manager",
-      "offline": true
-    },
-    "site_lead": {
-      "name": "Site Lead",
       "offline": true
     },
     "social_worker": {
@@ -111,29 +107,24 @@
     "can_view_data_records": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_unallocated_data_records": [
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_users": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_edit": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_log_out_on_android": [
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_update_messages": [
@@ -142,7 +133,6 @@
     "can_update_users": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_export_dhis": [
@@ -152,7 +142,6 @@
       "national_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_update_places": [
@@ -161,7 +150,6 @@
     "can_create_records": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_access_gateway_api": [
@@ -170,14 +158,12 @@
     "can_create_users": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_create_people": [
       "national_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_create_places": [
@@ -186,13 +172,11 @@
     "can_view_tasks": [
       "district_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_tasks_tab": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_configure": [
@@ -201,27 +185,23 @@
     "can_view_messages": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_messages_tab": [
       "national_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_reports": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_reports_tab": [
       "national_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_analytics_tab": [
@@ -232,7 +212,6 @@
       "intervation_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_contacts_tab": [
@@ -240,7 +219,6 @@
       "intervation_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_edit_profile": [
@@ -249,14 +227,12 @@
       "intervation_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_delete_reports": [
       "national_admin",
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_bulk_delete_reports": [
@@ -268,7 +244,6 @@
     "can_update_reports": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_delete_contacts": [
@@ -289,13 +264,11 @@
     "can_view_uhc_stats": [],
     "can_aggregate_targets": [
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_last_visited_date": [
       "clinical_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_edit_verification": [
@@ -303,19 +276,16 @@
     ],
     "can_verify_reports": [
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_call_action": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_message_action": [
       "national_admin",
       "case_manager",
-      "site_lead",
       "social_worker"
     ],
     "can_view_tasks_group": [],
@@ -323,7 +293,6 @@
     "can_upgrade": [],
     "can_view_old_navigation": [],
     "can_default_facility_filter": [
-      "site_lead",
       "social_worker"
     ],
     "can_have_multiple_places": [],
